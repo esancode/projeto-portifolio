@@ -1,9 +1,25 @@
-/* 
-  Variáveis para cores:
-  --fundo-principal
-  --texto
-  --texto-inverso
-  --destaque
-  --destaque-inverso
-  --fundo-card
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fundo-principal: #15151E; 
+  --texto: #FFFFFF;
+  --destaque: #8C1B2C;
+  --fundo-card: #0c0c11;
+
+  --fundo-principal-inverso: #FFFFFF;
+  --texto-inverso: #1A1A1A;
+  --destaque-inverso: #E10600;
+  --fundo-card-inverso: #F2F2F2;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.5em;
+  background-color: var(--fundo-principal);
+  color: var(--texto);
+}
+
