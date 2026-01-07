@@ -26,12 +26,12 @@ body {
 .escuro {
   --fundo-principal: #15151E; 
   --texto: #FFFFFF;
-  --destaque: #8F0F0A;
+  --destaque: #293766;
   --fundo-card: #111118;
 
   --fundo-principal-inverso: #FFFFFF;
   --texto-inverso: #1A1A1A;
-  --destaque-inverso: #912f2c;
+  --destaque-inverso: #3a4569;
   --fundo-card-inverso: #F2F2F2;
 }
 
