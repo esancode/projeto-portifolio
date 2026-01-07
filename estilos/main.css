@@ -98,6 +98,7 @@ article h2 i {
 .details-widget__projects_container {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -111,6 +112,14 @@ article h2 i {
     margin-bottom: 16px;
 }
 
+.details-widget__projects_project a {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+}
+
 .details-widget__projects_project:hover {
     cursor: pointer;
 }
@@ -120,11 +129,12 @@ article h2 i {
     aspect-ratio: 16/9;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 footer {
     background-color: var(--destaque);
-    color: var(--text);
+    color: white;
     text-align: center;
     padding: 14px;
 }

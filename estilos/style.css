@@ -5,15 +5,15 @@
 }
 
 :root {
-  --fundo-principal: #15151E; 
-  --texto: #FFFFFF;
-  --destaque: #8C1B2C;
-  --fundo-card: #111118;
+  --fundo-principal-inverso: #15151E; 
+  --texto-inverso: #FFFFFF;
+  --destaque-inverso: #a54150;
+  --fundo-card-inverso: #111118;
 
-  --fundo-principal-inverso: #FFFFFF;
-  --texto-inverso: #1A1A1A;
-  --destaque-inverso: #8b3643;
-  --fundo-card-inverso: #F2F2F2;
+  --fundo-principal: #f5f5f5;
+  --texto: #222222;
+  --destaque: #5e0714;
+  --fundo-card: #ffffff;
 }
 
 body {
@@ -21,5 +21,17 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+}
+
+.escuro {
+  --fundo-principal: #15151E; 
+  --texto: #FFFFFF;
+  --destaque: #8F0F0A;
+  --fundo-card: #111118;
+
+  --fundo-principal-inverso: #FFFFFF;
+  --texto-inverso: #1A1A1A;
+  --destaque-inverso: #912f2c;
+  --fundo-card-inverso: #F2F2F2;
 }
 

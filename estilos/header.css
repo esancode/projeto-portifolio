@@ -19,7 +19,7 @@ header {
 .navbar-widget a {
     position: relative;
     text-decoration: none;
-    color: var(--texto);
+    color: white;
     font-weight: 600;
     padding: 12px 8px 6px;
 }
