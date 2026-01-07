@@ -132,6 +132,21 @@ footer {
 
 
 @media (min-width: 768px) {
+    .sheet-widget {
+        grid-column: 2 / 3;
+        height: fit-content;
+        position: sticky;
+        top: 40px;
+    }
+
+    main {
+        grid-template-columns: auto 300px 1fr auto;
+    }
+
+    .details-widget {
+        grid-column: 3 / 4;
+    }
+
     .details-widget__container {
         grid-template-columns: 1fr 1fr;
     }
