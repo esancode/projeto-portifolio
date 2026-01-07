@@ -15,19 +15,19 @@
 </head>
 <body>
     <header>
-        <nav class="navbar-widget">
+        <nav class="navbar-widget" id="menu">
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Proficiências</a></li>
-                <li><a href="#">Formação</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Tema</a></li>
+                <li><a href="#sheet" class="link">Início</a></li>
+                <li><a href="#skills" class="link">Proficiências</a></li>
+                <li><a href="#trainig" class="link">Formação</a></li>
+                <li><a href="#projects" class="link">Projetos</a></li>
+                <li><a href="#" id="botao-tema">Tema</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="sheet-widget">
+        <section class="sheet-widget" id="sheet">
             <img src="imagens/erick-profile.jpeg" alt="" class="sheet-widget__img">
             <h1>Erick Vicente</h1>
             <p>Estudante de desenvolvimento de software, focado em web e criação de projetos digitais. Apaixonado por tecnologia desde cedo e sempre buscando evoluir. Atualmente, estudo engenharia de software, trabalho com desenvolvimento web e estou construindo meus próprios projetos. Meu objetivo é crescer na área e criar soluções úteis, eficientes e acessíveis.</p>
@@ -40,7 +40,7 @@
         </section>
 
         <section class="details-widget">
-            <article class="details-widget__skills">
+            <article class="details-widget__skills" id="skills">
                 <h2><i class="fa-solid fa-screwdriver-wrench"></i>Proficiências</h2>
 
                 <div class="details-widget__container">
@@ -128,7 +128,7 @@
 
             <!-- fim -->
 
-            <article class="details-widget__training">
+            <article class="details-widget__training" id="trainig">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formações</h2>
 
                 <div class="details-widget__container">
@@ -142,7 +142,7 @@
 
             <!-- fim -->
 
-            <article class="details-widget__projects">
+            <article class="details-widget__projects" id="projects">
                 <h2><i class="fa-solid fa-folder-closed"></i>Projetos</h2>
 
                 <div class="details-widget__projects_container">
@@ -205,5 +205,5 @@
         Desenvolvido por Erick Vicente
     </footer>
 
-    <script src="scripts/"></script>
+    <script src="scripts/script.js"></script>
 </body>
