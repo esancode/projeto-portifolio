@@ -59,5 +59,45 @@ article h2 {
 }
 
 article h2 i {
-    margin-right: 8px;
+    margin: 0 8px 8px 0;
+}
+
+.details-widget__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+.details-widget__item_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-widget__item_name {
+    font-weight: bold;
+    color: var(--text);
+}
+
+.details-widget__item_porcent {
+    font-weight: bold;
+    color: var(--destaque);
+}
+
+.details-widget__item_bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--fundo-principal);
+}
+
+.details-widget__item_progress {
+    height: 100%;
+    background-color: var(--destaque-inverso);
+}
+
+@media (min-width: 768px) {
+    .details-widget__container {
+        grid-template-columns: 1fr 1fr;
+    }
 }

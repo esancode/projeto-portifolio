@@ -18,8 +18,7 @@ header {
     text-decoration: none;
     color: var(--texto);
     font-weight: 600;
-    padding: 12px 15px 6px;
-    margin: 0 8px;
+    padding: 12px 8px 6px;
 }
 
 .navbar-widget a:hover {
